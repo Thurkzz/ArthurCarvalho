@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio do Arthur</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<!-- é a "mente/configuração" do documento HTML, normalmente serve para o visitante não interagir com oq ta aqui dentro.-->
+
+<body>
+    <nav class="nav-superior">
+
+        <a href="#" class="nav-logo">Arthur</a>
+
+        <ul>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#competencias">Competências</a></li>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="header-conteudo">
+            <a href="#hero" class="logo-link">
+                <h1 class="titulo">Arthur</h1> <!-- Serve para colocar o título principal na página, RECOMENDADO TER SÓ 1 -->
+            </a>
+            <h2 class="destaque-subtitulo">
+                Técnico em Informática, Engenharia Mecânica | Suporte, Manutenção, Desenvolvimento de Apps de celular e
+                Reparo automotivo
+            </h2>
+            <p class="texto-header">"Para quem quer voar, o menor dos problemas é não ter asas."</p>
+        </div>
+    </header>
+
+    <section id="hero">
+        <!-- Coluna da Esquerda: Seus textos exatos sem alterações -->
+        <div class="hero-texto">
+            <h2 class="saudacao">Olá, eu sou</h2>
+
+            <!-- Bloco do Nome -->
+            <div class="bloco-nome">
+                <h1 class="nome-principal">Arthur</h1>
+                <h2 class="sobrenome-principal">Carvalho</h2>
+            </div>
+
+            <!-- Bloco das Profissões lado a lado -->
+            <div class="bloco-profissao">
+                <span class="profissao-pequena">Técnico em Informática</span>
+                <span class="divisor">|</span>
+                <span class="profissao-grande">Engenharia Mecânica</span>
+            </div>
+        </div>
+
+        <!-- Coluna da Direita: Foto com Moldura Geométrica -->
+        <div class="hero-foto-container">
+            <!-- Moldura geométrica de fundo -->
+            <div class="quadrado-fundo"></div>
+            <div class="borda-fundo"></div>
+
+            <!-- Sua foto P&B sem fundo -->
+            <img src="img/foto-perfil.png" alt="Arthur Carvalho" class="foto-perfil">
+
+            <!-- Detalhe flutuante na frente -->
+            <div class="quadrado-frente"></div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <h2 class="destaque-subtitulo-header">Meus serviços:</h2> <!-- H2 são subtítulos da página -->
+        <!-- a class é uma classe que serve para identificar uma div ou uma determinada classe ao invés de todas as div -->
+        <div class="items-servicos">
+            <div class="card-servico">
+                <h3 class="destaque-subsubtitulo">Suporte</h3>
+                <p class="texto-card">Ajudo a resolver problemas em computadores de empresas, como resolução de falhas, cópias de backups, tirar dúvidas de funcionários, etc.</p>
+            </div>
+
+            <div class="card-servico">
+                <h3 class="destaque-subsubtitulo">Manutenção</h3>
+                <p class="texto-card">Efetuo a manutenção dos sistemas, como atualizações de Apps e sistemas, trocas de peças, conserto de computadores, etc.</p>
+            </div>
+
+            <div class="card-servico">
+                <h3 class="destaque-subsubtitulo">Dev. Mobile</h3>
+                <p class="texto-card">Desenvolvo aplicativos de celular modernos e responsivos utilizando Flutter e a linguagem Dart.</p>
+            </div>
+
+            <div class="card-servico">
+                <h3 class="destaque-subsubtitulo">Reparo Automotivo</h3>
+                <p class="texto-card">Trabalho com manutenção mecânica de veículos automotivos em geral, com exceção de veículos a diesel.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2 class="destaque-subtitulo-secao">Sobre mim:</h2>
+        
+        <div class="sobre-container">
+            <!-- Lado Esquerdo: Texto resumo -->
+            <div class="sobre-texto-principal">
+                <p>
+                    Me chamo Arthur Carvalho de Oliveira e tenho 18 anos. Minha trajetória na tecnologia começou com Robótica na CNI (2019) e evoluiu com Estudos práticos em Design Gráfico e Ferramentas Visuais (Photoshop & Illustrator) com passagem pela escola ZION.
+                </p>
+                <p>
+                    Hoje uno T.I. e Engenharia Mecânica por acreditar que os veículos modernos são a principal fronteira tecnológica.
+                </p>
+            </div>
+
+            <div class="sobre-cards">
+                <div class="card-ponto">
+                    <h4><i class="fa-solid fa-graduation-cap"></i> UFMG</h4>
+                    <p>Engenharia Mecânica</p>
+                </div>
+                <div class="card-ponto">
+                    <h4><i class="fa-solid fa-laptop-code"></i> Grau Técnico</h4>
+                    <p>Técnico em Informática</p>
+                </div>
+                <div class="card-ponto">
+                    <h4><i class="fa-solid fa-palette"></i> Base Visual</h4>
+                    <p>Photoshop & Illustrator (ZION)</p>
+                </div>
+                <div class="card-ponto">
+                    <h4><i class="fa-solid fa-language"></i> Idiomas</h4>
+                    <p>Inglês em andamento (Number One)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="competencias">
+        <div class="competencias-container">
+            <h2 class="destaque-subtitulo-secao">Competências:</h2>
+            <ul class="lista-detalhes">
+                <!-- <li> (List Item): Representa cada item dentro da lista. -->
+                <li><strong>Desenvolvimento & Software:</strong> Flutter, Dart, Git/GitHub, Consumo de APIs REST, Lógica de Programação.</li>
+                <!-- <ul> (Unordered List): Cria uma lista não ordenada (uma lista de tópicos onde a ordem não importa, representada por "bolinhas"). -->
+                <li><strong>Sistemas & Infraestrutura:</strong> Diagnóstico de Hardware, Redes Locais (LAN/Wi-Fi), Rotinas de Backup (Local/Nuvem), Instalação/Configuração de SO (Windows/Linux).</li>
+                <li><strong>Mecânica & Diagnóstico:</strong> Manutenção Preventiva/Corretiva de Motores Ciclo Otto, Sistemas de Suspensão/Freios, Leitura de Telemetria e Escâneres Automotivos (Injeção Eletrônica).</li>
+                <li><strong>Design & UI/UX:</strong> Adobe Photoshop, Adobe Illustrator, Prototipagem Visual, Identidade Visual.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="diferenciais">
+        <div class="diferenciais-container">
+            <h2 class="destaque-subtitulo-secao">Diferenciais:</h2>
+            <ul class="lista-detalhes">
+                <li><strong>Sinergia T.I. + Mecânica Automotiva:</strong> Compreensão profunda do veículo moderno como um sistema embarcado (software + hardware + mecânica), ideal para diagnósticos complexos e soluções de automação/embarcados.</li>
+                <li><strong>Olhar Estético (UI/UX) em Projetos Técnicos:</strong> Estudo de Design Gráfico (ZION) aplicado ao desenvolvimento, garantindo que softwares e apps não sejam apenas funcionais, mas visualmente atraentes e intuitivos.</li>
+                <li><strong>Visão Sistêmica de Resolução de Falhas:</strong> Metodologia analítica apurada para rastrear e isolar problemas, seja um erro de compilação em código, uma falha de rede ou um ruído mecânico no motor.</li>
+                <li><strong>Comunicação Clara e Objetiva:</strong> Capacidade de traduzir termos altamente técnicos de T.I. ou Engenharia para uma linguagem simples e acessível ao cliente final.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="contato-container">
+            <h2 class="destaque-subtitulo-secao">Vamos Conversar?</h2>
+            <p class="contato-subtitulo">Entre em contato para projetos, diagnósticos ou parcerias.</p>
+
+            <div class="contato-grid">
+                <!-- Botão E-mail (Ação de Copiar via JS) -->
+                <div class="card-contato">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>E-mail</h3>
+                    <p id="email-text">arthurcarvalho837@gmail.com</p>
+                    <button type="button" id="btn-copiar-email" class="btn-contato">
+                        <i class="fa-regular fa-copy"></i> Copiar E-mail
+                    </button>
+                </div>
+
+                <!-- Botão WhatsApp (Redirecionamento Dinâmico via JS) -->
+                <div class="card-contato">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <h3>WhatsApp</h3>
+                    <p>Conversa direta e rápida</p>
+                    <button type="button" id="btn-whatsapp" class="btn-contato btn-wa">
+                        <i class="fa-brands fa-whatsapp"></i> Iniciar Chat
+                    </button>
+                </div>
+
+                <!-- Botão Instagram (Abertura via JS) -->
+                <div class="card-contato">
+                    <i class="fa-brands fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <p>@_thurkzzz</p>
+                    <button type="button" id="btn-instagram" class="btn-contato btn-insta">
+                        <i class="fa-brands fa-instagram"></i> Acessar Perfil
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
